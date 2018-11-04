@@ -20,7 +20,7 @@ css: [../plugins/travelmap/css/custom.css']
     <div class="container">
 <table>
 <tbody>
-<tr class="color" bgcolor="#BCBABE">  
+<tr class="color" bgcolor="#B4B4B4">  
   <td class="color-name">
     <h4>Visited</h4>
   </td>
@@ -241,7 +241,7 @@ css: [../plugins/travelmap/css/custom.css']
 <!-- hover style -->
 <script>
     var map_config = {
-        'default':{'borderColor':'#9CA8B6','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
+        'default':{'borderColor':'#6f6f70','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
@@ -265,8 +265,8 @@ var pin_config = {
         'shape':'circle',
         'hover': 'I\'m from Mumbai, India',
         'pos_X':685,
-        'pos_Y':225,
-        'diameter':8,
+        'pos_Y':222,
+        'diameter':5,
         'outline':'#FFCECE',
         'thickness':1,
         'upColor':'#ed6f49',
