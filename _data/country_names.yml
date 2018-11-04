@@ -357,7 +357,7 @@
 -
   index: 'map_72'
   country_name: 'INDIA'
-  visited: false
+  visited: true
 
 -
   index: 'map_73'
@@ -852,7 +852,7 @@
 -
   index: 'map_171'
   country_name: 'UNITED KINGDOM'
-  visited: true
+  visited: false
 
 -
   index: 'map_172'
