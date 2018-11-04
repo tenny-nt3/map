@@ -20,13 +20,13 @@ css: [../plugins/travelmap/css/custom.css']
     <div class="container">
 <table>
 <tbody>
-<tr class="color" bgcolor="#266C87">  
+<tr class="color" bgcolor="#BCBABE">  
   <td class="color-name">
     <h4>Visited</h4>
   </td>
 </tr>
 
-<tr class="color" bgcolor="#BCBABE">
+<tr class="color" bgcolor="#266C87">
   <td class="color-name">
     <h4>Unvisited</h4>
   </td>
@@ -245,9 +245,9 @@ css: [../plugins/travelmap/css/custom.css']
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
-            'hover': '{{location.country_name}}','upColor':'#BCBABE','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
-            {% else %}
             'hover': '{{location.country_name}}','upColor':'#266C87','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            {% else %}
+            'hover': '{{location.country_name}}','upColor':'#BCBABE','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
             {% endif %}
         },
         {% endfor %}
@@ -265,7 +265,7 @@ var pin_config = {
         'shape':'circle',
         'hover': 'I\'m from Mumbai, India',
         'pos_X':685,
-        'pos_Y':215,
+        'pos_Y':225,
         'diameter':8,
         'outline':'#FFCECE',
         'thickness':1,
