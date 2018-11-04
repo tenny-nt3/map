@@ -241,7 +241,7 @@ css: [../plugins/travelmap/css/custom.css']
 <!-- hover style -->
 <script>
     var map_config = {
-        'default':{'borderColor':'#6f6f70','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
+        'default':{'borderColor':'#979899','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         {% for location in site.data.country_names %}
         '{{location.index}}':{
             {% if location.visited %}
