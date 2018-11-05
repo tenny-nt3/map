@@ -20,13 +20,13 @@ css: [../plugins/travelmap/css/custom.css']
     <div class="container">
 <table>
 <tbody>
-<tr class="color" bgcolor="#B4B4B4">  
+<tr class="color" bgcolor="#266C87">  
   <td class="color-name">
     <h4>Visited</h4>
   </td>
 </tr>
 
-<tr class="color" bgcolor="#266C87">
+<tr class="color" bgcolor="#b4b4b4">
   <td class="color-name">
     <h4>Unvisited</h4>
   </td>
@@ -280,6 +280,29 @@ var pin_config = {
 </script>
 
 
+<!-- where am I Currently -->
+<script type="text/javascript">
+var pin_config = {
+    'default':{     'pinShadow':'#000',     'pinShadowOpacity':'50',    },
+    'points':[
+
+    {
+        'shape':'circle',
+        'hover': 'I\'m from Mumbai, India',
+        'pos_X':1000,
+        'pos_Y':150,
+        'diameter':7,
+        'outline':'#FFCECE',
+        'thickness':1,
+        'upColor':'#ed6f49',
+        'overColor':'#5cc5ef',
+        'downColor':'#D15B2C',
+        'enable':true,
+    },
+    ]
+}
+
+</script>
 
 
 
