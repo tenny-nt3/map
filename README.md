@@ -1,33 +1,15 @@
 # TravelMap
+Adopted from [this web deb](https://jekyller.github.io/TravelMap/) 
 
-Travel Map plugin for your personal website
+Travel Map indicating all the countries I have been to across the world. 
 
-## Minimal plugin for Travel Map
-This is a plugin that you show your travel map
+You can check out the map here: [TravelMap](https://harshbg.github.io/Map/)
 
-### Demo
+List of countries I have been to:
 
-`Here is a demo`_ of `sample effect` 
-
-![Demo](/demo/demo.gif)
-
-Also you can visit [this web deb](https://jekyller.github.io/TravelMap/) or [my original web](http://www.junlulocky.com/travelmap/)
-
-### Add Travel Map in your web 
-
-- Copy '/_data/country_names.yml' to your Jekyll '_data' folder;
-
-- Change the country_name.yml file to your own experience, make the *visited* indicator to *true* if you have visited this country; *false* otherwise;
-
-- Add **custom.css** to your website folder; Add this file route to your website page;
-
-- Put **index.html** under the website route;
-
-- Change the *baseurl* in *_config.yml*to your Repo name.
+ 1. India
+ 2. United States
+ 3. Coming Soon....
 
 
 
-
-## Author
-
-- [Locky](https://github.com/junlulocky)
