@@ -1,9 +1,9 @@
 # TravelMap
-Adopted from [this web deb](https://jekyller.github.io/TravelMap/) 
+Adopted from [this web deb].(https://jekyller.github.io/TravelMap/) 
 
 Travel Map indicating all the countries I have been to across the world. 
 
-You can check out the map here: [TravelMap](https://harshbg.github.io/Map/)
+You can check out the map here: [TravelMap](https://www.gupta-harsh.com/map/)
 
 List of countries I have been to:
 
