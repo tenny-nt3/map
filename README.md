@@ -1,5 +1,5 @@
-[![Language](https://img.shields.io/badge/Made%20with-SAS-blue.svg)](#technologies-and-tools)
-![HitCount](http://hits.dwyl.io/harshbg/Shaving-Blades-Analysis.svg)
+[![Language](https://img.shields.io/badge/Made%20with-HTML%20and%20CSS-blue.svg)](#technologies-and-tools)
+![HitCount](http://hits.dwyl.io/harshbg/map.svg)
 
 # TravelMap
 Adopted from [this web deb](https://jekyller.github.io/TravelMap/).
